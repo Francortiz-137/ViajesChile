@@ -23,3 +23,8 @@ html{
 .card-img{
     height: 200px;
 }
+
+.social-links{
+    color: white;
+    font-size: 1.5rem;
+}
