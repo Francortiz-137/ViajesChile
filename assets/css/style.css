@@ -1,4 +1,25 @@
 
+:root{
+    --primary: #0DCAF0;
+}
+
 html{
     scroll-behavior: smooth;
+}
+
+.logo{
+    height: 3rem;
+}
+.bg-custom-primary{
+    background-color: var(--primary);
+}
+
+.about-me-icons{
+    width: 100%;
+    color: white;
+    background-color: var(--primary);
+}
+
+.card-img{
+    height: 200px;
 }
