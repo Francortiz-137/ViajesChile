@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --primary: #0DCAF0;
+    --bold: 700;
+    --regular: 400;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--bold);
+  font-style: normal;
+}
+
+.raleway-regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--regular);
+    font-style: normal;
 }
 
 html{
@@ -20,11 +37,19 @@ html{
     background-color: var(--primary);
 }
 
+.card{
+    border: none;
+}
 .card-img{
     height: 200px;
+}
+
+.social-link-wrapper{
+    gap: 5rem;
 }
 
 .social-links{
     color: white;
     font-size: 1.5rem;
+    text-decoration: none;
 }
